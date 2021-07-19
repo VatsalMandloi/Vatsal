@@ -8,6 +8,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 .neodown{
     border-radius: 38px;
@@ -161,6 +162,9 @@ box-shadow: inset 6px 6px 12px #595858,
   
     
     }
+.resume:active{
+    background-color: #ff5757;
+}
 
 .contact{
   margin: 5% 5% 5% 0;
