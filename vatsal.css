@@ -1,277 +1,263 @@
 html{
-scroll-behavior: smooth;
-height: 100%;
-}
-body{
-    font-family: 'Nunito', sans-serif;
-    background: #dfdddd;
-    height: 100%;
-    margin: 2%;
-    padding: 2%;
     scroll-behavior: smooth;
-       margin-top: 0.5%;
-    padding-top: 0.5%;
-}
-.neodown{
-    border-radius: 38px;
-    background: #dfdddd;
-    box-shadow: inset 11px 11px 22px #818080,
-                inset -11px -11px 22px #ffffff;
-                margin: 2.5%;
-    padding: 2.5%;
-   
-}
-.neoup{
-    border-radius: 38px;
-    background: #dfdddd;
-    box-shadow:  11px 11px 22px #818080,
-                 -11px -11px 22px #ffffff;
-                 margin: 2.5%;
-                 padding: 2.5%;
-                 
-}
-
-h1{
-    padding-left: 10%;      
-}
-#header{
+    height: 100%;
+    }
+    body{
+        font-family: 'Nunito', sans-serif;
+        background: #dfdddd;
+        height: 100%;
+        margin: 2%;
+        padding: 2%;
+        scroll-behavior: smooth;
+        margin-top: 0.5%;
+        padding-top: 0.5%;
+    }
+    .neodown{
+        border-radius: 38px;
+        background: #dfdddd;
+        box-shadow: inset 11px 11px 22px #818080,
+                    inset -11px -11px 22px #ffffff;
+                    margin: 2.5%;
+        padding: 2.5%;
        
-    margin: 5%;
-    margin-top: 1%;
-}
-#intro{
-   
-    width: 50%;
-    margin-left: 6%;
-}
-#intro h4{
-    padding-left: 14%;
-}
-#photo{
+    }
+    .neoup{
+        border-radius: 38px;
+        background: #dfdddd;
+        box-shadow:  11px 11px 22px #818080,
+                     -11px -11px 22px #ffffff;
+                     margin: 2.5%;
+                     padding: 2.5%;
+                     
+    }
+    
+    h1{
+        padding-left: 10%;      
+    }
+    #header{
+           
+        margin: 5%;
+        margin-top: 0%;
+    }
+    #intro{
+       
+        width: 50%;
+        margin-left: 6%;
+    }
+    #intro h4{
+        padding-left: 14%;
+    }
+    #photo{
         display: flex;
         align-items: center;
     }
-.profile{   
-    size: inherit;
-     float: right;
-    border-radius: 50%;
-background: #dfdddd;
-box-shadow: inset 6px 6px 12px #595858,
-            inset -6px -6px 12px #ffffff;
-         padding: 13%;
-         
-          background-image: url(image/profile.png);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: contain;
-          filter: grayscale(100%);
-          margin-right: 2%;
-          margin-left: 4%;
-}
-.profile:hover{
-    filter: grayscale(0%);
-}
-
-
-.atitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-        
-}
-
-.titleimg{
-   border-radius: 50%;
-    width: 5%;
-    padding: 1%;
-    margin-left: 0;
-}
-.divtitle{
-    display: flex;
-    align-items: center;
-  justify-content: center;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-#list{
-  display: flex;
- 
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  
-}
-.alist{
- 
-    padding-left: 5%;
-    padding-right: 5%;
-}
-#twodiv{
-    padding-top: 2.5%;
-    padding-bottom: 3.5%;
-
-}
-.section{
-    margin-top: 8%;
-}
-.pblock{
-    display : flex;
-     width: 100%;
-  height: 100%;
-}
-.contain{
-   
-    margin-left: 5%;
-}
-.contain div{
-    display: contents;
-}
- #google{
-     display: contents;
-
- }  
-#google :hover{
-  background-color: rgb(230, 72, 72);
-  
-}
-#google img{
-   
-    width: 50%;
-    border-radius: 10px;
-    box-shadow:  11px 11px 22px #818080,
-    -11px -11px 22px #ffffff;
-}
-#carimage{
-    margin-left: 16%;
-}
-#resumebox{
-   
-    box-shadow:  inset 18px 18px 17px #662323,
-    inset -18px -18px 17px #ff8b8b;
-}
-#resumebox img{
-    margin: 0% 3% 0% 3%;
-}
-.resume{
-   padding-left: 8%;
-   padding-right: 8%;
-    text-decoration: none;
-    color: rgb(253, 253, 253);
-    background-color:#ff5757;
-    font-size: 100%;
-   
-    } 
-.resume:hover{
+    .profile{   
+        size: inherit;
+         float: right;
+        border-radius: 50%;
+    background: #dfdddd;
+    box-shadow: inset 6px 6px 12px #595858,
+                inset -6px -6px 12px #ffffff;
+             padding: 13%;
+              background-image: url(image/profile.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: contain;
+              filter: grayscale(100%);
+                margin-right: 7%;
+    }
+    .profile:hover{
+        filter: grayscale(0%);
+    }
     
-   
-    border-radius: 38px;
-    background:  #e40e0e;
-  
+    
+    .atitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            
+    }
+    
+    .titleimg{
+       border-radius: 50%;
+        width: 5%;
+        padding: 1%;
+        margin-left: 0;
+    }
+    .divtitle{
+        display: flex;
+        align-items: center;
+      justify-content: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    #list{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+    .alist{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #twodiv{
+        padding-top: 2.5%;
+        padding-bottom: 3.5%;
     
     }
-.resume:active{
-    background-color: #ff5757;
-}
-
-.contact{
-  margin: 5% 5% 5% 0;
-  padding-left: 0;
-
-
-}
-.contactimg{   border-radius: 50%;
-    width: 8%;
-    padding: 2%;
-    margin-left: 0;
-}
-
-.contactinfo{
-    display: flex;
-    align-items: center;
+    .section{
+        margin-top: 8%;
+    }
+    .pblock{
+        display : flex;
+        height: 100%;
+        width: 100%;
+    }
+    .contain{  
+        margin-left: 5%;
+    }
+    .contain div{
+        display: contents;
+    }
+     #google{
+         display: contents;
+     }  
+    #google :hover{
+      background-color: rgb(230, 72, 72);
+    }
+    #google img{ 
+        width: 50%;
+        border-radius: 10px;
+        box-shadow:  11px 11px 22px #818080,
+        -11px -11px 22px #ffffff;
+    }
+    .image{
+       
+        size: 60%;
+        height: 100%;
+        position: absolute;
+        right: 12%;
+    }
   
-}
-.img img{
-    height: 100%;
-    width: 90%;
-}
-
-
-.footer{
-  /*  background-image: url(image/svg.png);*/
-border-radius: 0px;
-margin-left: 0;
-margin-right: 0;    box-shadow: inset 0px 11px 22px #818080,
-0px 0px 0px #ffffff;
+    #resumebox{  
+        box-shadow:  inset 18px 18px 17px #662323,
+        inset -18px -18px 17px #ff8b8b;
+    }
+    #resumebox img{
+        margin: 0% 3% 0% 3%;
+    }
+    .resume{
+       padding-left: 8%;
+       padding-right: 8%;
+        text-decoration: none;
+        color: rgb(253, 253, 253);
+        background-color:#ff5757;
+        font-size: 100%; 
+        } 
+    .resume:hover{
+        border-radius: 38px;
+        background:  #e40e0e;
+        }
+    .resume:active{
+        background-color: #ff5757;
+    }
     
-} 
-
-.card {
-    backdrop-filter: blur(8px) saturate(124%);
-    -webkit-backdrop-filter: blur(8px) saturate(124%);
-    background-color: rgba(255, 255, 255, 0.56);
-    border-radius: 12px;
-    border: 1px solid rgba(209, 213, 219, 0.3);
-}
- .link{
-     margin-left: 2%;
- }   
-
-.info{
-  margin-top: 5%;
-  margin-bottom: 5%;
-  padding-right: 0;
-  
-  width: 25%;
-  border-left:2px solid rgb(202, 200, 200) ;
-}
-.info a{
-   
- text-decoration: none;
- color: black;
- align-items: center;
- 
-}
-.info a h4,h5{
-    margin: 0;
-}
-.info a:hover .contactimg {
-    width: 10%;
-    box-shadow:  11px 11px 22px #818080,
-    -11px -11px 22px #ffffff;
-
-}
-.info a:hover{
-    color: #ff5757;
-}
-form{
-    display: block  ;
-    margin-left: 12%;
-}
-form h4{
-    margin-bottom: 2%;
-    margin-left: 2%;
-}
-form input,textarea{
-    resize: vertical;
-    width: 100%;
-    border-radius: 8px;
-  padding: 5%;
-  border:2px #ff0606;
-
-}
-form button {
-    background-color: #ff5757;
-  margin-top: 8%;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-form button:hover {
-    background-color: #f03838;
-  }
+    .contact{
+      margin: 5% 5% 5% 0;
+      padding-left: 0;
+    }
+    .contactimg{   border-radius: 50%;
+        width: 8%;
+        padding: 2%;
+        margin-left: 0;
+    }
+    
+    .contactinfo{
+        display: flex;
+        align-items: center;
+    }
+    .img img{
+        height: 100%;
+        width: 90%;
+    }
+    
+    .footer{
+      /*  background-image: url(image/svg.png);*/
+    border-radius: 0px;
+    margin-left: 0;
+    margin-right: 0;    box-shadow: inset 0px 11px 22px #818080,
+    0px 0px 0px #ffffff;
+        
+    } 
+    
+    .card {
+        backdrop-filter: blur(8px) saturate(124%);
+        -webkit-backdrop-filter: blur(8px) saturate(124%);
+        background-color: rgba(255, 255, 255, 0.56);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+    }
+     .link{
+         margin-left: 2%;
+     }   
+    
+    .info{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      padding-right: 0;
+      
+      width: 25%;
+      border-left:2px solid rgb(202, 200, 200) ;
+    }
+    .info a{
+       
+     text-decoration: none;
+     color: black;
+     align-items: center;
+     
+    }
+    .info a h4,h5{
+        margin: 0;
+    }
+    .info a:hover .contactimg {
+        width: 10%;
+        box-shadow:  11px 11px 22px #818080,
+        -11px -11px 22px #ffffff;
+    
+    }
+    .info a:hover{
+        color: #ff5757;
+    }
+    form{
+        display: block  ;
+        margin-left: 12%;
+    }
+    form h4{
+        margin-bottom: 2%;
+        margin-left: 2%;
+    }
+    form input,textarea{
+        resize: vertical;
+        width: 100%;
+        border-radius: 8px;
+      padding: 5%;
+      border:2px #ff0606;
+    
+    }
+    form button {
+        background-color: #ff5757;
+      margin-top: 8%;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+      /* When moving the mouse over the submit button, add a darker green color */
+    form button:hover {
+        background-color: #f03838;
+      }
