@@ -65,7 +65,8 @@ box-shadow: inset 6px 6px 12px #595858,
           background-repeat: no-repeat;
           background-size: contain;
           filter: grayscale(100%);
-            margin-right: 7%;
+          margin-right: 2%;
+          margin-left: 4%;
 }
 .profile:hover{
     filter: grayscale(0%);
