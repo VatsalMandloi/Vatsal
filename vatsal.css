@@ -118,6 +118,8 @@ box-shadow: inset 6px 6px 12px #595858,
 }
 .pblock{
     display : flex;
+     width: 100%;
+  height: 100%;
 }
 .contain{
    
